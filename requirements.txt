@@ -1,0 +1,6 @@
+requests
+flask
+flask_socketio
+flask_cors
+python-dotenv
+cohere
