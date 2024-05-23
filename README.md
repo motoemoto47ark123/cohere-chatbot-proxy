@@ -1,5 +1,4 @@
 # Cohere Chatbot Proxy
-# websocket may not work right now working on fixing it
 Welcome to the Cohere Chatbot Proxy project! This repository contains the code for a Flask-based web application that acts as a proxy service for Cohere AI, allowing users to generate text responses using Cohere's language model.
 
 ## Table of Contents
@@ -85,3 +84,4 @@ For those who prefer not to host the service themselves, you are welcome to use 
 ## License
 
 This project does not have a license. You are free to use, modify, and distribute the code as you see fit. Enjoy!
+# websocket may not work right now working on fixing it
