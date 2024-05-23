@@ -2,9 +2,9 @@ import requests
 import json
 
 # URLs for the API endpoints
-API_URL = "https:/no-limts-ai-1.motoemotovps.xyz/generate"
-SESSION_URL = "https://no-limts-ai-1.motoemotovps.xyz/user_sessions"
-USER_ID_GEN_URL = "https://no-limts-ai-1.motoemotovps.xyz/generate_user_id"
+API_URL = "https://cohere-ai.motoemotovps.xyz/generate"
+SESSION_URL = "https://cohere-ai.motoemotovps.xyz/user_sessions"
+USER_ID_GEN_URL = "https://cohere-ai.motoemotovps.xyz/generate_user_id"
 
 def generate_text(user_id, message, model='command-r-plus', preamble='', connectors=None):
     # Default connectors to an empty list if not provided
