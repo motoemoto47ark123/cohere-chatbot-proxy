@@ -8,7 +8,6 @@ Welcome to the Cohere Chatbot Proxy project! This repository contains the code f
 - [Setup](#setup)
 - [Usage](#usage)
 - [Demo](#demo)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -20,7 +19,8 @@ The Cohere Chatbot Proxy provides an interface for interacting with the Cohere A
 - **Real-time text generation**: Stream text responses from Cohere AI.
 - **Session management**: Store and retrieve chat sessions for users.
 - **WebSocket support**: Real-time communication using Socket.IO.
-- **Simple web interface**: Basic web page to demonstrate the proxy service.
+- **Simple web interface**: Basic web page to demonstrate that the proxy service is online.
+- **HTTP support**: Handles normal HTTP requests like GET and POST.
 
 ## Setup
 
@@ -40,7 +40,6 @@ To set up the project, follow these steps:
 3. Create a `.env` file in the root directory with the following content:
     ```
     COHERE_API_KEY=your_cohere_api_key
-    FLASK_SECRET_KEY=your_flask_secret_key
     ```
 
 4. Start the Flask server:
@@ -52,7 +51,7 @@ To set up the project, follow these steps:
 
 ### Web Interface
 
-Open your browser and navigate to `http://localhost:5000` to access the web interface. You will see a welcome message and can interact with the proxy service.
+Open your browser and navigate to `http://localhost:5000` to access the web interface. You will see a welcome message indicating that the proxy service is online.
 
 ### API Endpoints
 
@@ -73,22 +72,16 @@ Open your browser and navigate to `http://localhost:5000` to access the web inte
 
 ### CLI
 
-The CLI script is located in the repository. To use the CLI, run the following command:
+To use the CLI, navigate to the `cli-version-for-fast-testing` folder and run the following command:
 
 ```sh
 python cli.py
 ```
 
-This will start the CLI, allowing you to interact with the Cohere Chatbot Proxy.
-
 ## Demo
 
-Check out a live demo of the proxy service [here](https://no-limts-ai-1.motoemotovps.xyz).
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the existing code style and include tests for new features.
+For those who prefer not to host the service themselves, you are welcome to use my hosted demo version available [here](https://no-limts-ai-1.motoemotovps.xyz). Please be aware that this demo may have rate limits or might not be operational at all times.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project does not have a license. You are free to use, modify, and distribute the code as you see fit. Enjoy!
