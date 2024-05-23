@@ -79,7 +79,7 @@ python cli.py
 
 ## Demo
 
-For those who prefer not to host the service themselves, you are welcome to use my hosted demo version available [here](https://no-limts-ai-1.motoemotovps.xyz). Please be aware that this demo may have rate limits or might not be operational at all times.
+For those who prefer not to host the service themselves, you are welcome to use my hosted demo version available [here](https://cohere-ai.motoemotovps.xyz). Please be aware that this demo may have rate limits or might not be operational at all times.
 
 ## License
 
